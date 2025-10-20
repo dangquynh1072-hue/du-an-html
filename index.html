@@ -4,142 +4,136 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>kuin's Blog</title>
-</head>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Welcome to Kuin’s Blog 🌿</title>
+  <title>Chuyện nhỏ của Quin</title>
+  <link rel="stylesheet" href="style.css">
 
   <!-- Google Fonts -->
   <link
-    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Playfair+Display:wght@600&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Playfair+Display:wght@600&display=swap"
     rel="stylesheet">
 
   <style>
-    /* Nền trang */
+    /* Toàn trang */
     body {
       background-color: #d0f0c0;
-      /* xanh pastel kem sữa */
+      /* Giữ nguyên màu xanh sữa pastel của Quin */
       color: #333;
-      /* chữ xám đậm dịu mắt */
       font-family: "Poppins", sans-serif;
-      /* font nội dung */
       margin: 0;
-      padding: 40px;
+      padding: 0;
     }
 
-    /* Tiêu đề */
-    h1 {
+    /* Header */
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #c1e1c1;
+      /* nhấn nhẹ hơn một chút cho header */
+      padding: 20px 60px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    header h1 {
       font-family: "Playfair Display", serif;
-      /* font tiêu đề */
       color: #4b6b45;
-      /* xanh olive nhẹ */
+      font-size: 1.8em;
+      margin: 0;
+    }
+
+    /* Menu ngang */
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 25px;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #4c8061;
+      font-weight: 500;
+      font-size: 1em;
+      transition: color 0.2s ease;
+    }
+
+    nav a:hover {
+      color: #6fb48f;
+    }
+
+    /* Nội dung chính */
+    main {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: 0 auto;
       text-align: center;
     }
 
-    /* Đoạn văn */
-    p {
-      line-height: 1.6;
-      max-width: 700px;
-      margin: 20px auto;
-      font-size: 18px;
+    h3 {
+      color: #4b6b45;
+      margin-top: 30px;
     }
 
-    /* Nút hoặc link */
-    a {
+    footer {
+      text-align: center;
+      background-color: #c1e1c1;
+      padding: 15px;
+      color: #4b6b45;
+      margin-top: 50px;
+      font-size: 0.9em;
+    }
+
+    /* Link chính */
+    .main-link {
       display: inline-block;
       background-color: #93c572;
-      /* xanh lá nhấn */
       color: white;
       padding: 10px 20px;
       border-radius: 10px;
       text-decoration: none;
-      margin-top: 10px;
+      margin: 20px 0;
+      transition: background 0.3s;
     }
 
-    a:hover {
+    .main-link:hover {
       background-color: #6b8e23;
-      /* đậm hơn khi rê chuột */
     }
   </style>
 </head>
 
 <body>
-  <h1>
-    Welcome to Kuin’s Blog🌿
 
-  </h1>
-  <p><i>Đây là không gian nho nhỏ nơi mình ghi lại những suy nghĩ,quan điểm cá nhân, trải nghiệm cá nhân và quá trình tự
-      học của mình</i></p>
-  <div style="text-align:center;">
-    <a href="#">Đọc bài viết mới</a>
-  </div>
-</body>
-
-</html>
-
-
-<body style="background-color: #FFF7E6;">
-  <!DOCTYPE html>
-  <html lang="vi">
-
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chuyện nhỏ của Kuin</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-
-  <body>
-    <header>
-      <h1>🌿 Chuyện nhỏ của Kuin 🐼</h1>
-      <nav>
-        <ul>
-          <li><a href="diary.html">kuin's corner</a></li>
-          <li><a href="english.html">Tiếng Anh</a></li>
-          <li><a href="japanese.html">Tiếng Nhật</a></li>
-          <li><a href="chinese.html">Tiếng Trung</a></li>
-
-        </ul>
-      </nav>
-      <h3>
-        LifeQuote:<i>"做任何工作都会辛苦，那为什么不选择一份即使辛苦也能让你感到快乐的工作呢？"</i>
-      </h3>
-    </header>
-
-    <section class="intro">
-      <h2>Xin Chào🐼Hi🌿你好🌸こんにちは</h2>
-      <img src="https://i.pinimg.com/736x/4a/90/a1/4a90a105efd2c62826d23cd09ace7262.jpg" atl="my deam house" width="200"
-        height="150">
-    </section>
-
-    <footer>
-      <p>© 2025 Chuyện nhỏ của Kuin 🌿</p>
-    </footer>
-  </body>
-
-  </html>
-
+  <header>
+    <h1>🌿 Chuyện nhỏ của Quin 🐼</h1>
+    <nav>
+      <ul>
+        <li> <a href="#"></a>Home🌿</li>
+        <li><a href="diary.html">Quin's cozy corner</a></li>
+        <li><a href="english.html">English</a></li>
+        <li><a href="japanese.html">Japanese</a></li>
+        <li><a href="chinese.html">Chinese</a></li>
+      </ul>
+    </nav>
+  </header>
 
   <main>
+    <a class="main-link" href="https://www.notion.so/KUIN-S-house-26722bba0d3c806b8e3ce0354f457d83">Welcome to my
+      house</a>
 
+    <h3><u>Life Quote</u>: <i>"做任何工作都会辛苦，那为什么不选择一份即使辛苦也能让你感到快乐的工作呢？"</i></h3>
 
-    href="https://www.notion.so/KUIN-S-house-26722bba0d3c806b8e3ce0354f457d83">welcome
-    to my house</a>
+    <div>
+      <img src="https://i.pinimg.com/736x/4a/90/a1/4a90a105efd2c62826d23cd09ace7262.jpg" alt="My dream house"
+        width="320" height="220" style="border-radius: 10px; margin-top: 20px;">
 
-
-
-    <h3><u>Life Quote</u>: 做任何工作都会辛苦，那为什么不选择一份即使辛苦也能让你感到快乐的工作呢？</h3><i>
-
-    </i><img src="https://i.pinimg.com/736x/4a/90/a1/4a90a105efd2c62826d23cd09ace7262.jpg" alt="My dream house"
-      width="300" height="200">
-
+    </div>
   </main>
+
+  <footer>
+    <p>© 2025 Chuyện nhỏ của Quin</p>
+  </footer>
+
 </body>
 
 </html>

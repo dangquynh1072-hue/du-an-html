@@ -1,0 +1,92 @@
+/* --- Tổng thể --- */
+body {
+  background-color: #d0f0c0; /* xanh pastel kem sữa Quin chọn */
+  color: #333;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* --- Header & menu --- */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #c1e1c1; /* nhấn nhẹ hơn một tông */
+  padding: 20px 60px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  font-family: "Playfair Display", serif;
+  color: #4b6b45;
+  font-size: 1.8em;
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #4c8061;
+  font-weight: 500;
+  font-size: 1em;
+  transition: color 0.2s ease;
+}
+
+nav a:hover {
+  color: #6fb48f;
+}
+
+/* --- Nội dung chính --- */
+main {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.main-link {
+  display: inline-block;
+  background-color: #93c572;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  margin: 20px 0;
+  transition: background 0.3s;
+}
+
+.main-link:hover {
+  background-color: #6b8e23;
+}
+
+h3 {
+  color: #4b6b45;
+  margin-top: 30px;
+}
+
+.main-img {
+  border-radius: 10px;
+  margin-top: 20px;
+  box-shadow: 0 4px 10px rgba(100, 150, 120, 0.2);
+}
+
+/* --- Footer --- */
+footer {
+  text-align: center;
+  background-color: #c1e1c1;
+  padding: 15px;
+  color: #4b6b45;
+  margin-top: 50px;
+  font-size: 0.9em;
+}
+a {
+  text-decoration: none;
+}
